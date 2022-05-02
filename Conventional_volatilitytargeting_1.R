@@ -137,16 +137,16 @@
     scaled.eop_weight <- scaled.results$EOP.Weight
 
 # Resultaten opslaan
-  saveRDS(inputs, paste0(file_map,"inputs.rds"))
-  saveRDS(scaled.returns, paste0(file_map,"scaled_returns.rds"))
-  saveRDS(backtest.unscaled.returns, paste0(file_map,"unscaled_returns.rds"))
-  saveRDS(backtest.rf_returns, paste0(file_map,"rf_returns.rds"))
-  saveRDS(scaled.bop_weight, paste0(file_map,"scaled_bop_weights.rds"))
-  saveRDS(backtest.unscaled.bop_weight, paste0(file_map,"unscaled_bop_weights.rds"))
-  saveRDS(scaled.eop_weight, paste0(file_map,"scaled_eop_weights.rds"))
-  saveRDS(backtest.unscaled.eop_weight, paste0(file_map,"unscaled_eop_weights.rds"))
-  saveRDS(backtest.target_volatility, paste0(file_map,"target_volatility.rds"))
-  saveRDS(backtest.predicted_volatility, paste0(file_map,"predicted_volatility.rds"))
-  saveRDS(backtest.p.rebalance, paste0(file_map,"P_rebalance.rds"))
-  saveRDS(backtest.asset_returns, paste0(file_map,"asset_returns.rds"))
+  #saveRDS(inputs, paste0(file_map,"inputs.rds"))
+  #saveRDS(scaled.returns, paste0(file_map,"scaled_returns.rds"))
+  #saveRDS(backtest.unscaled.returns, paste0(file_map,"unscaled_returns.rds"))
+  #saveRDS(backtest.rf_returns, paste0(file_map,"rf_returns.rds"))
+  #saveRDS(scaled.bop_weight, paste0(file_map,"scaled_bop_weights.rds"))
+  #saveRDS(backtest.unscaled.bop_weight, paste0(file_map,"unscaled_bop_weights.rds"))
+  #saveRDS(scaled.eop_weight, paste0(file_map,"scaled_eop_weights.rds"))
+  #saveRDS(backtest.unscaled.eop_weight, paste0(file_map,"unscaled_eop_weights.rds"))
+  #saveRDS(backtest.target_volatility, paste0(file_map,"target_volatility.rds"))
+  #saveRDS(backtest.predicted_volatility, paste0(file_map,"predicted_volatility.rds"))
+  #saveRDS(backtest.p.rebalance, paste0(file_map,"P_rebalance.rds"))
+  #saveRDS(backtest.asset_returns, paste0(file_map,"asset_returns.rds"))
   
