@@ -40,4 +40,4 @@
   
 # Beschrijvende statistieken
   stats <- table.Stats(returns) # Geeft een tabel met beschrijvende statistieken voor de rendementen 
-  write_xlsx(stats, "descriptives.xlsx") # Bewaart de tabel met beschrijvende statistieken in een Excel bestand    
+  #write_xlsx(stats, "descriptives.xlsx") # Bewaart de tabel met beschrijvende statistieken in een Excel bestand    
