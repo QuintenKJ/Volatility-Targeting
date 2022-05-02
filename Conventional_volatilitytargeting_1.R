@@ -34,7 +34,7 @@
   # EWMA (indien gebruikt)
     EWMA_used <- 0
     EWMA.window <- 250 # terugkijk window
-    # Vervalfactor of halveringstijd moet gegeven worden  
+    # Vervalfactor of halveringstijd moet gegeven worden bij gebruik van EWMA  
       EWMA.lamda <- 0.94 # Vervalfactor  
       #EWMA.half <- 10 # Halveringstijd 
   # Tabel die inputs bijhoudt voor latere controle
