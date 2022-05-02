@@ -29,7 +29,7 @@
     rebalance.frequency = "months"  
   # Aantal jaren om de doelvolatiliteit te initialiseren 
     initialisation.years <-5
-  # Leveragelimiet (zet op een groot getal (vb: 100) indien er geen limiet is)
+  # Blootstellingslimiet (zet op een groot getal (vb: 100) indien er geen limiet is)
     exposure_limit <- 100
   # EWMA (indien gebruikt)
     EWMA_used <- 0
