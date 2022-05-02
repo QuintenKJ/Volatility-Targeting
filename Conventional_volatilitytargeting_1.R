@@ -86,8 +86,8 @@
     # Initialisatie tabel die doelvolatiliteit bijhoudt   
       target_volatility <- xts(matrix(0, nrow = nrow(predicted_volatility),ncol = 1), order.by = index(predicted_volatility))
       colnames(target_volatility) <- "Target volatility"
-    # Berekenen doelvolatilieit 
-      for (d in endpoints(unscaled.returns, on = "months")[-1]){ # Eerste endpoint is 0 en wordt dus weggelaten 
+    # Berekenen van doelvolatiliteit door de gerealiseerde volatiliteit te bepalen van de eerste observatie tot het betreffende herbalanceringsmoment 
+      for (d in endpoints(unscaled.returns, on = "months")[-1]){ # Lus over herbalanceringsmomenten, eerste endpoint is 0 en wordt dus weggelaten 
         target_volatility[index(unscaled.returns[d])] <- realized_volatility(unscaled.returns[1:d])
       }
   # Berekenen blootstelling in gebalanceerde portefeuille of index 
