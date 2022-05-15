@@ -9,7 +9,7 @@ Alle bestanden kunnen gedownload worden als volgt: druk op "Code" (rechtsboven) 
  - Conditional_volatilitytargeting_2.R : dit script voert de backtest uit voor de conditionele volatiliteitstargetingstrategie (trage versie).
  - Volatilitytargeting_performance_analysis.R : dit script berekent de prestatiemaatstaven. 
  - Volatility_return_analysis.R : dit script berekent de correlaties tussen rendementen en volatiliteiten en biedt een visualisatie met behulp van een staafgrafiek.
- - Volatilitytargeting_visiualisation.R : dit script creëert grafieken voor de cumulatieve rendementen, blootstellingen, gerealiseerde volatiliteit en doelvolatiliteit.
+ - Volatilitytargeting_visiualisation.R : dit script creëert grafieken voor de cumulatieve rendementen, blootstellingen, gerealiseerde volatiliteit en doelvolatiliteit. Dit script toont ook het verloop van de Sharpe ratio op basis van een rollend venster met een lengte van tien jaar.
  - Volatilitytargeting_crisis.R : dit script berekent de cumulatieve rendementen gedurende de kredietcrisis en covidcrisis.
 
 Opmerking: voor zowel de conventionele als de conditionele strategieën zijn er twee scripts beschikbaar. Het eerste script maakt gebruik van de Return.portfolio() functie van het PerformanceAnalytics pakket. Deze versie is sneller maar geeft de lezer geen duidelijk beeld van hoe de portefeuille in de praktijk werkt. Het tweede script maakt geen gebruik van de Return.portfolio() functie en toont hierdoor beter aan hoe de portefeuille achter de schermen werkt, deze versie is echter wel aanzienlijk trager. Beide versies leveren hetzelfde resultaat, indien de lezer dus niet geïnteresseerd is in de onderliggende werking van de portefeuille, dan is het aangeraden om de eerste versie te gebruiken.
