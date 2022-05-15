@@ -1,5 +1,6 @@
 # Volatility-Targeting
-Deze repository bevat de R bestanden die gebruikt werden in de masterproef: Een onderzoek naar het succes van conditionele volatiliteitstargetingstrategieën voor gebalanceerde portefeuilles. Alle bestanden kunnen gedownload worden als volgt: druk op "Code" (rechtsboven) > selecteer "Download ZIP".
+Deze repository bevat de R bestanden die gebruikt werden in de masterproef: Een onderzoek naar het succes van conditionele volatiliteitstargetingstrategieën voor gebalanceerde portefeuilles. 
+Alle bestanden kunnen gedownload worden als volgt: druk op "Code" (rechtsboven) > selecteer "Download ZIP".
 ## Bestanden:
  - Volatilitytargeting_1.R : dit script vormt Datastream datasets om naar rendementen die gebruikt worden in de backtests en geeft beschrijvende statistieken.
  - Conventional_volatilitytargeting_1.R : dit script voert de backtest uit voor de conventionele volatiliteitstargetingstrategie (snelle versie). 
